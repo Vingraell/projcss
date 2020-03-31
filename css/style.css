@@ -1,0 +1,33 @@
+*{
+    color: darkred;
+}
+
+li{
+    margin: 20px;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+
+.linkClass{
+    color: forestgreen;
+}
+#linkId2{
+    color: crimson;
+}
+
+#linkId2.linkClass{
+    color: darkblue !important;
+}
+
+#linkId3{
+    color: indigo;
+}
+
+a.linkClass.newClass{
+    color: aquamarine;
+}
+a.linkClass:not(span){
+    color: chocolate;
+}
